@@ -15,7 +15,7 @@ app.set('view engine', 'ejs');
 //console.log(uniqid());
 const pass = "x22rWNQXbOSqzqmh";
 
-mongoose.connect(`mongodb+srv://1da20cs091cs:${pass}@cluster0.vlocahk.mongodb.net/?retryWrites=true&w=majority`, {useUnifiedTopology: true , useNewUrlParser: true});
+mongoose.connect(`mongodb+srv://1da20cs091cs:${pass}@cluster0.vlocahk.mongodb.net/cc-lab?retryWrites=true&w=majority`, {useUnifiedTopology: true , useNewUrlParser: true});
 
 app.use(express.json());
 
